@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #fff;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+.hero .hero-text {
+  width: 45%;
+  font-size: 2.5rem;
+}
+.logo {
+  padding-left: 57px;
+  max-width: 214px;
+}
+.middle-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.product-card {
+  height: 500px;
+  width: 25%;
+  background-color: #333;
+  border-radius: 20px;
+  color: white;
+}
+.product-card .product-title {
+  font-size: 3rem;
+}
+.product-card .product-image {
+  height: 125px;
+  width: 150px;
+}
+.product-card .product-desc {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+.product-card .product-button {
+  height: 50px;
+  background-color: #7d7;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 1;
+  transition: transform 0.5s;
+}
+.product-card .product-button:hover {
+  transform: scale(0.75);
+  opacity: 0.5;
+}
+.footer {
+  width: 100%;
+  background-color: #555;
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.footer p {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 2rem;
+}
