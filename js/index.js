@@ -4,21 +4,21 @@ const products = [
     title: 'Napster',
     logo: '../assets/napster.png',
     description: 'music sucks',
-    link: 'google.com',
+    link: 'https://www.google.com',
   },
   {
     title: 'Consequatur Tempore Inventore',
     logo: '../assets/logo2.jpg',
     description:
       'Quia temporibus molestiae. Error et odit doloremque tenetur iure tempore consequuntur numquam lab',
-    link: 'google.com',
+    link: 'https://www.google.com',
   },
   {
     title: 'Consequatur',
     logo: '../assets/image3.jpg',
     description:
       'Harum temporibus numquam nisi aliquid quibusdam. Minima amet voluptates voluptas dicta aut. Officiis voluptatem quis libero aut aut',
-    link: 'google.com',
+    link: 'https://www.google.com',
   },
 ];
 
