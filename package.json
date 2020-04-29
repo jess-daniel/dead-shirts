@@ -1,0 +1,23 @@
+{
+  "name": "dead_startups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lessc less/index.less css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jess-daniel/dead-shirts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jess-daniel/dead-shirts/issues"
+  },
+  "homepage": "https://github.com/jess-daniel/dead-shirts#readme",
+  "dependencies": {
+    "lessc": "^1.0.2"
+  }
+}
