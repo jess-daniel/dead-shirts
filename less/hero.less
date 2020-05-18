@@ -3,6 +3,10 @@
   justify-content: space-around;
   align-items: center;
 
+  @media @tablet {
+    flex-direction: column;
+  }
+
   h2 {
     font-size: 4rem;
     text-align: center;
@@ -11,5 +15,8 @@
   .hero-text {
     width: 45%;
     font-size: 2.5rem;
+    @media @tablet {
+      width: 80%;
+    }
   }
 }

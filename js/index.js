@@ -5,13 +5,15 @@ const products = [
     logo: '../assets/napster.png',
     description: 'music sucks',
     link: 'https://www.google.com',
+    altText: 'Napster logo',
   },
   {
-    title: 'Consequatur Tempore Inventore',
+    title: 'Consequatur Tempore',
     logo: '../assets/logo2.jpg',
     description:
       'Quia temporibus molestiae. Error et odit doloremque tenetur iure tempore consequuntur numquam lab',
     link: 'https://www.google.com',
+    altText: 'logo',
   },
   {
     title: 'Consequatur',
@@ -19,6 +21,7 @@ const products = [
     description:
       'Harum temporibus numquam nisi aliquid quibusdam. Minima amet voluptates voluptas dicta aut. Officiis voluptatem quis libero aut aut',
     link: 'https://www.google.com',
+    altText: 'logo',
   },
 ];
 
@@ -31,6 +34,7 @@ const cardCreator = (obj) => {
 
   title.textContent = obj.title;
   image.src = obj.logo;
+  image.alt = obj.altText;
   description.textContent = obj.description;
   button.textContent = 'Buy Now!';
   button.href = obj.link;
